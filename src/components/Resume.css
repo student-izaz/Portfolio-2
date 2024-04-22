@@ -1,0 +1,138 @@
+.resume-section{
+    width: 63%;
+    background-color: white;
+    border-radius: 20px;
+}
+.resume-me{
+    padding: 50px;
+    row-gap: 50px;
+}
+.education{
+    width:48%;
+    row-gap: 30px;
+}
+.about-education{
+    row-gap: 25px;
+}
+.icon-exp{
+    font-size: 30px;
+    color: rgb(154, 231, 30);
+}
+.icon-edu{
+    font-size: 30px;
+    color: rgb(252, 59, 81);
+}
+.icon-skill{
+    font-size: 30px;
+    color: rgb(120, 60, 175);
+}
+.experience{
+    width:48%;
+    row-gap: 30px;
+}
+.edu-card, .exp-card{
+    padding: 15px 20px;
+    row-gap: 14px;
+    border-radius: 10px;
+}
+.duration p{
+    font-size: 14px;
+    color: rgb(119, 119, 135);
+}
+.course-name, .field-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.resume-me .heading h1::after{
+    content: "";
+    position: absolute;
+    top: -45%;
+    left: 32%;
+    height: 100px;
+    width: 4px;
+    background-color: rgb(28, 149, 247);
+    transform: rotate(90deg);
+}
+.edu-col-1{
+    background-color: #fef0f7;
+}
+.edu-col-2{
+    background-color: rgb(232, 242, 252);
+}
+.edu-col-3{
+    background-color: #fef0f7;
+}
+
+.exp-col-1{
+    background-color: rgb(232, 242, 252);
+}
+.collage-name, .org-name{
+    font-size: 15.5px;
+    color: rgb(119, 119, 135);
+}
+.skills{
+    width: 46%;
+}
+.all-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    padding: 10px 15px;
+    background-color: rgb(240, 241, 240);
+    border-radius: 10px;
+    color: rgb(119, 119, 135);
+    font-weight: 600;
+}
+
+/* Dark Theme */
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+.dark-theme .edu-card{
+    background-color: rgb(47, 46, 46);
+}
+.dark-theme .exp-card{
+    background-color: rgb(47, 46, 46);
+}
+.dark-theme .duration p,.collage-name,.org-name{
+    color: rgb(187, 187, 187);
+}
+.dark-theme .skill{
+    background: rgb(47, 46, 46);
+    color: rgb(187, 187, 187);
+}
+.dark-theme .knowledge-skills{
+    flex-direction: column;
+}
+.dark-theme .skills{
+    width: 100%;
+}
+
+
+@media (max-width: 800px){
+    .resume-section{
+        width: 100%;
+    }
+    .educ-expe{
+        flex-direction: column;
+        row-gap: 50px;
+        margin-bottom: 40px;
+    }
+    .heading h1{
+        font-size: 32px;
+    }
+    .resume-me .heading h1::after{
+        top: -80%;
+        left: 75%;
+    }
+    .education, .experience{
+        width: 100%;
+    }
+    .resume-me{
+        padding: 20px;
+        row-gap: 40px;
+    }
+}

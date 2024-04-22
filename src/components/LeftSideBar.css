@@ -1,0 +1,164 @@
+.flex-col-alg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+:root{
+  --dark-text-color: 
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+.leftSideBar {
+  width: 25%;
+}
+.SideBar {
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 20px;
+  row-gap: 30px;
+}
+.primary-details {
+  row-gap: 10px;
+  position: relative;
+}
+.my-image {
+  width: 210px;
+  height: 210px;
+  border-radius: 15px;
+  position: absolute;
+  top: -160px;
+}
+.my_name {
+  margin: 100px 10px 10px 10px;
+}
+.title {
+  padding: 10px 15px;
+  background-color: rgb(240, 243, 245);
+  border-radius: 5px;
+  font-size: 13px;
+}
+.social-icon {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+.icon-1{
+    color: black;
+}.icon-2{
+    color:  #ee2a7b;
+  
+}.icon-3{
+    color: green ;
+}.icon-4{
+    color: rgb(24, 131, 238) ;
+}
+.social-icon .icon {
+  background-color: rgb(241, 243, 245);
+  padding: 6px 8px;
+  font-size: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.social-icon .icon:hover {
+  transform: translate();
+  background-color: rgb(28, 149, 247);
+  color: white;
+}
+.contact-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(240, 243, 245);
+  display: flex;
+  flex-direction: column;
+}
+.ctn-type {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid rgba(183, 182, 182, 1);
+  margin-bottom: 10px;
+  padding: 8px;
+}
+.ctn-type .icon{
+  background: white;
+  padding: 6px;
+  font-size: 26px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.detail p {
+  font-size: 13px;
+}
+.detail h4 {
+  font-weight: 300;
+}
+.primary-btn {
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(28, 149, 247);
+  transition: all ease 0.3s;
+}
+.primary-btn:hover {
+  transform: translate();
+  background-color: rgb(240, 243, 245);
+  color: black;
+  border: 1px solid rgb(28, 149, 247);
+}
+
+.darkLeftSideBar .my_name h2{
+  color: white;
+}
+.darkLeftSideBar .SideBar{
+  background-color: black;
+}
+.darkLeftSideBar .title{
+  background-color: rgb(47, 46, 46);
+  color: rgb(187, 187, 187);
+}
+.darkLeftSideBar .contact-details{
+  background-color: rgb(47, 46, 46);
+  color: rgb(187, 187, 187);
+}
+.darkLeftSideBar .social-icon .icon{
+  background-color: rgb(47, 46, 46);
+}
+.darkLeftSideBar .social-icon .icon{
+  background-color: rgb(47, 46, 46);
+}
+.darkLeftSideBar .contact-details .icon{
+  background-color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .SideBar{
+    padding: 20px;
+  }
+  .leftSideBar {
+    width: 100%;
+  }
+  .contact-details{
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 330px) {
+  .contact-details{
+    padding: 20px 3px;
+  }
+  .detail h4 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

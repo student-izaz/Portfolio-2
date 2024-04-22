@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  font-size: 16px;
+  background: rgb(240, 240, 241);
+  border-radius: 0 0 20px 20px;
+}
+.footer.dark-footer {
+  background-color: rgb(47, 46, 46);
+  color: rgb(240, 240, 241);
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 13px;
+  }
+}

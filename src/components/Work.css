@@ -1,0 +1,87 @@
+.work-section{
+    width: 63%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.heading{
+    font-size: 22px;
+    position: relative;
+}
+.work-me .heading h1::after{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 25%;
+    height: 100px;
+    width: 4px;
+    background-color: rgb(28, 149, 247);
+    transform: rotate(90deg);
+}
+.work-area{
+    width: 100%;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+.work-sample{
+    width: 47%;
+    height: 230px;
+    align-items: center;
+}
+.work-img{
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.work-link{
+    width: 80%;
+    padding: 10px;
+    background: rgb(28, 149, 247);
+    border-radius: 6px;
+    text-align: center;
+}
+.work-link:hover{
+    background: rgb(11, 140, 246);
+
+}
+.work-link a{
+    color: white;
+    font-size: 18px;
+    padding: 0px 50px;
+}
+
+/* Drak Theme */
+.dark-work-section{
+    background: black;
+}
+.dark-work-section .heading{
+    color: white;
+}
+.dark-work-section .work-link{
+    background-color: rgb(47, 46, 46);
+}
+.dark-work-section .work-link:hover{
+    background-color: rgb(31, 31, 31);
+}
+@medi
+@media (max-width: 400px){
+    .work-section{
+        width: 100%;
+        padding: 20px;
+    }
+    .work-sample{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .work-section{
+        width: 100%;
+        padding: 20px;
+    }
+    
+}

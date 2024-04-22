@@ -1,0 +1,127 @@
+:root{
+    --primary-color: rgb(81, 93, 101);
+}
+
+
+.about-text p{
+    color: var(--primary-color);
+    line-height: 23px;
+}
+.heading{
+    font-size: 22px;
+    position: relative;
+}
+.col-heading h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-me .heading h1::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    height: 100px;
+    width: 4px;
+    background-color: rgb(28, 149, 247);
+    transform: rotate(90deg);
+}
+.about-section{
+    width: 63%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.about-me{
+    row-gap: 25px;
+    margin-bottom: 30px;
+}
+.what-do{
+    row-gap: 25px;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.col{
+    width: 48%;
+    display: flex;
+    column-gap: 10px;
+    text-align: justify;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+}  
+.jasd{
+    row-gap: 8px;
+} 
+.icon{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.col-1 .icon{
+    color: rgb(241, 200, 119);
+}
+.col-2 .icon{
+    color: rgb(43, 160, 244);
+}
+.col-3 .icon{
+    color: rgb(125, 232, 232);
+}
+.col-4 .icon{
+    color: rgb(234, 137, 239);
+}
+.col-text{
+    line-height: 25px;
+    color: var(--primary-color);
+}
+.col-1{
+    background-color: #fef0f7;
+}.col-2{
+    background-color: rgb(232, 242, 252);
+}.col-3{
+    background-color: rgb(232, 242, 252);
+}.col-4{
+    background-color: #fef0f7;
+}
+
+.about-dark{
+    background-color: Black;
+}
+.about-dark .heading{
+    color: white;
+}
+.about-dark .col{
+    background-color: rgb(47, 46, 46);
+}
+.about-dark .col-text,.about-text p{
+  color: rgb(187, 187, 187);
+}
+.about-dark .col-heading{
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .about-section{
+        width: 100%;
+        padding: 35px;
+    }
+    .col{
+        width: 100%;
+    }
+    .about-me .heading h1::after{
+        top: -60%;
+        left: 68%;
+    }
+}
+@media (max-width: 800px) {
+    .about-section{
+        width: 100%;
+        padding: 15px;
+    }
+    .col{
+        width: 100%;
+    }
+}
