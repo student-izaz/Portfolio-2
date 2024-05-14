@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+  import React, { useContext } from "react";
 import "./Resume.css";
 import Footer from "./Footer";
 import { MdCastForEducation } from "react-icons/md";
@@ -23,17 +23,17 @@ function Resume() {
               <h2>Education</h2>
             </div>
             <div className="about-education flex-col">
-              <div className="edu-card flex-col edu-col-1">
+              <div className="edu-card flex-col edu-col-3">
                 <div className="duration">
-                  <p>2020-2021</p>
+                  <p>2021-2024</p>
                 </div>
                 <div className="course-name">
-                  <p>12th</p>
+                  <p>Master Diploma In Computer Enginnering</p>
                 </div>
                 <div className="collage-name">
-                  <p>Government (CBSE)</p>
+                  <p>Indian Institute of Computer Science</p>
                 </div>
-              </div>
+                </div>
               <div className="edu-card flex-col edu-col-2">
                 <div className="duration">
                   <p>2021-2024</p>
@@ -45,15 +45,15 @@ function Resume() {
                   <p>Delhi University</p>
                 </div>
               </div>
-              <div className="edu-card flex-col edu-col-3">
+              <div className="edu-card flex-col edu-col-1">
                 <div className="duration">
-                  <p>2021-2024</p>
+                  <p>2020-2021</p>
                 </div>
                 <div className="course-name">
-                  <p>Master Diploma In Computer Enginnering</p>
+                  <p>12th</p>
                 </div>
                 <div className="collage-name">
-                  <p>Indian Institute of Computer Science</p>
+                  <p>Government (CBSE)</p>
                 </div>
               </div>
             </div>

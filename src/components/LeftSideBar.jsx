@@ -24,16 +24,16 @@ function LeftSideBar({ darkMode }) {
           <div className="title">FULL STACK DEVELOPER</div>
           <div className="social-icon">
             <div className="icon icon-1">
-              <FaGithub />
+              <a href="https://github.com/student-izaz?tab=repositories"><FaGithub /></a>
             </div>
             <div className="icon icon-2">
-              <FaInstagram />
+              <a href="https://www.instagram.com/mdizaz__13/"><FaInstagram /></a>
             </div>
             <div className="icon icon-3">
-              <FaWhatsapp />
+              <a href=""><FaWhatsapp /></a>
             </div>
             <div className="icon icon-4">
-              <FaLinkedinIn />
+              <a href="https://www.linkedin.com/in/izaz-ahmed-7b1aa426b/"><FaLinkedinIn /></a>
             </div>
           </div>
         </div>

@@ -45,14 +45,14 @@
   column-gap: 10px;
   margin-top: 10px;
 }
-.icon-1{
+.icon-1 a{
     color: black;
-}.icon-2{
+}.icon-2 a{
     color:  #ee2a7b;
   
-}.icon-3{
+}.icon-3 a{
     color: green ;
-}.icon-4{
+}.icon-4 a{
     color: rgb(24, 131, 238) ;
 }
 .social-icon .icon {
