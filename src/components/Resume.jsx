@@ -1,4 +1,4 @@
-  import React, { useContext } from "react";
+import React, { useContext } from "react";
 import "./Resume.css";
 import Footer from "./Footer";
 import { MdCastForEducation } from "react-icons/md";
@@ -33,7 +33,7 @@ function Resume() {
                 <div className="collage-name">
                   <p>Indian Institute of Computer Science</p>
                 </div>
-                </div>
+              </div>
               <div className="edu-card flex-col edu-col-2">
                 <div className="duration">
                   <p>2021-2024</p>
@@ -81,48 +81,54 @@ function Resume() {
           </div>
         </div>
 
-        <div className="knowledge/skils flex">
+        <div className="knowledge/skills flex">
           <div className="skills flex-col rg-4">
             <div className="sub-heading flex">
-              <FaTools className="icon-skill"/>
+              <FaTools className="icon-skill" />
               <h2>Skills</h2>
             </div>
-            <div className="all-skills flex rg-2">
-              <div className="skill">
-                <p>HTML</p>
+            <div className="skill-row">
+              <div className="skill-col col1">
+                <h2 className="skill-head">Frontend</h2>
+                <div className="skill">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Redux</li>
+                    <li>Responsive Design</li>
+                  </ul>
+                </div>
               </div>
-              <div className="skill">
-                <p>CSS</p>
+              <div className="skill-col col2">
+                <h2 className="skill-head">Backend</h2>
+                <div className="skill">
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>REST APIs</li>
+                    <li>GraphQL</li>
+                    <li>Authentication</li>
+                    <li>Middleware</li>
+                    <li>WebSocket</li>
+                    <li>Validation</li>
+                    <li>Error Handling</li>
+                    <li>File Upload</li>
+                  </ul>
+                </div>
               </div>
-              <div className="skill">
-                <p>JAVASCRIPT</p>
-              </div>
-              <div className="skill">
-                <p>BOOTSTRAP</p>
-              </div>
-              <div className="skill">
-                <p>REACT</p>
-              </div>
-              <div className="skill">
-                <p>NODE JS</p>
-              </div>
-              <div className="skill">
-                <p>EXPRESS JS</p>
-              </div>
-              <div className="skill">
-                <p>MONGODB</p>
-              </div>
-              <div className="skill">
-                <p>PYTHON</p>
-              </div>
-              <div className="skill">
-                <p>PHP</p>
-              </div>
-              <div className="skill">
-                <p>MYSQL</p>
-              </div>
-              <div className="skill">
-                <p>GITHUB</p>
+              <div className="skill-col col3">
+                <h2 className="skill-head">Database</h2>
+                <div className="skill">
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                    <li>Aggregation</li>
+                    <li>Data Modeling</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
