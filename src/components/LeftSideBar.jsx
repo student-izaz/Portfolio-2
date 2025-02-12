@@ -9,6 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { FaDownload } from "react-icons/fa6";
+import  my_img from "../assets/img6.jpg";
 
 function LeftSideBar({ darkMode }) {
   return (
@@ -16,7 +17,7 @@ function LeftSideBar({ darkMode }) {
       <div className="SideBar flex-col-alg">
         <div className="primary-details flex-col-alg">
           <div className="my-image">
-            <img src="src\assets\img6.jpg" />
+            <img src={my_img} />
           </div>
           <div className="my_name">
             <h2>MOHAMMAD IZAZ</h2>
