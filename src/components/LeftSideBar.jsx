@@ -16,7 +16,7 @@ function LeftSideBar({ darkMode }) {
       <div className="SideBar flex-col-alg">
         <div className="primary-details flex-col-alg">
           <div className="my-image">
-            <img src="public/img6.jpg" />
+            <img src="src\assets\img6.jpg" />
           </div>
           <div className="my_name">
             <h2>MOHAMMAD IZAZ</h2>
