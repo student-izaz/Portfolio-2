@@ -5,6 +5,13 @@ import { MdCastForEducation } from "react-icons/md";
 import { PiBagSimpleBold } from "react-icons/pi";
 import { FaTools } from "react-icons/fa";
 import { ThemeContext } from "../../src/App";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaBootstrap } from "react-icons/fa6";
+import { SiRedux } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { DiResponsive } from "react-icons/di";
 
 function Resume() {
   const Theme = useContext(ThemeContext);
@@ -92,13 +99,19 @@ function Resume() {
                 <h2 className="skill-head">Frontend</h2>
                 <div className="skill">
                   <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
-                    <li>Redux</li>
-                    <li>Responsive Design</li>
+                    <li><FaHtml5 size="17px" color="rgb(245, 105, 18)"/>
+                    HTML</li>
+                    <li><FaCss3Alt size="17px" color="rgb(26, 164, 238)"/>
+                    CSS</li>
+                    <li><TbBrandJavascript size="17px" color="rgb(239, 232, 29)"/>
+                    Javascript</li>
+                    <li><FaReact size="17px" color="rgb(18, 245, 219)"/>React</li>
+                    <li><FaBootstrap size="17px" color="rgb(122, 23, 242)"/>
+                    Bootstrap</li>
+                    <li><SiRedux size="17px" color="rgb(209, 19, 247)"/>
+                    Redux</li>
+                    <li><DiResponsive size="20px" color="rgb(39, 253, 157)"/>
+                    Responsive Design</li>
                   </ul>
                 </div>
               </div>
