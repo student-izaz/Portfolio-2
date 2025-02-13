@@ -20,7 +20,7 @@ import { MdOutlineUploadFile } from "react-icons/md";
 import { SiSocketdotio } from "react-icons/si";
 import { BiSolidErrorCircle } from "react-icons/bi";
 import { TbLayoutAlignMiddle } from "react-icons/tb";
-import { SiAuthentik } from "react-icons/si";
+// import { SiAuthentik } from "react-icons/si";
 
 
 function Resume() {
@@ -136,7 +136,8 @@ function Resume() {
                     <li>REST APIs</li>
                     <li><GrGraphQl size="17px" color="rgb(231, 15, 220)"/>
                     GraphQL</li>
-                    <li><SiAuthentik size="17px" color="rgb(248, 187, 6)"/>
+                    <li>
+                      {/* <SiAuthentik size="17px" color="rgb(248, 187, 6)"/> */}
                     Authentication</li>
                     <li><TbLayoutAlignMiddle size="17px" color="rgb(85, 10, 246)"/>
                     Middleware</li>
