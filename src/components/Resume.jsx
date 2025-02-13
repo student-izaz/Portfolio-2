@@ -13,6 +13,16 @@ import { SiRedux } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { DiResponsive } from "react-icons/di";
 
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { MdOutlineUploadFile } from "react-icons/md";
+import { SiSocketdotio } from "react-icons/si";
+import { BiSolidErrorCircle } from "react-icons/bi";
+import { TbLayoutAlignMiddle } from "react-icons/tb";
+import { SiAuthentik } from "react-icons/si";
+
+
 function Resume() {
   const Theme = useContext(ThemeContext);
 
@@ -119,16 +129,24 @@ function Resume() {
                 <h2 className="skill-head">Backend</h2>
                 <div className="skill">
                   <ul>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
+                    <li><FaNodeJs size="17px" color="rgb(10, 220, 59)"/>
+                    Node.js</li>
+                    <li><SiExpress size="17px" color="rgb(15, 15, 21)"/>
+                    Express.js</li>
                     <li>REST APIs</li>
-                    <li>GraphQL</li>
-                    <li>Authentication</li>
-                    <li>Middleware</li>
-                    <li>WebSocket</li>
+                    <li><GrGraphQl size="17px" color="rgb(231, 15, 220)"/>
+                    GraphQL</li>
+                    <li><SiAuthentik size="17px" color="rgb(248, 187, 6)"/>
+                    Authentication</li>
+                    <li><TbLayoutAlignMiddle size="17px" color="rgb(85, 10, 246)"/>
+                    Middleware</li>
+                    <li><SiSocketdotio size="17px" color="rgb(201, 255, 6)"/>
+                    WebSocket</li>
                     <li>Validation</li>
-                    <li>Error Handling</li>
-                    <li>File Upload</li>
+                    <li><BiSolidErrorCircle size="17px" color="rgb(14, 117, 242)"/>
+                    Error Handling</li>
+                    <li><MdOutlineUploadFile size="17px" color="rgb(214, 17, 17)" />
+                    File Upload</li>
                   </ul>
                 </div>
               </div>
