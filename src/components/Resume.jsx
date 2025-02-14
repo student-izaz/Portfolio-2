@@ -20,8 +20,14 @@ import { MdOutlineUploadFile } from "react-icons/md";
 import { SiSocketdotio } from "react-icons/si";
 import { BiSolidErrorCircle } from "react-icons/bi";
 import { TbLayoutAlignMiddle } from "react-icons/tb";
-// import { SiAuthentik } from "react-icons/si";
+import { TbBrandOauth } from "react-icons/tb";
+import { TbApi } from "react-icons/tb";
+import { GrValidate } from "react-icons/gr";
 
+import { SiMongodb } from "react-icons/si";
+import { SiMongoose } from "react-icons/si";
+import { GrAggregate } from "react-icons/gr";
+import { BsDatabaseGear } from "react-icons/bs";
 
 function Resume() {
   const Theme = useContext(ThemeContext);
@@ -129,21 +135,22 @@ function Resume() {
                 <h2 className="skill-head">Backend</h2>
                 <div className="skill">
                   <ul>
-                    <li><FaNodeJs size="17px" color="rgb(10, 220, 59)"/>
+                    <li><FaNodeJs size="17px" color="rgb(63, 189, 5)"/>
                     Node.js</li>
                     <li><SiExpress size="17px" color="rgb(15, 15, 21)"/>
                     Express.js</li>
-                    <li>REST APIs</li>
+                    <li><TbApi size="17px" color="rgb(11,111,111)"/>
+                    REST APIs</li>
                     <li><GrGraphQl size="17px" color="rgb(231, 15, 220)"/>
                     GraphQL</li>
-                    <li>
-                      {/* <SiAuthentik size="17px" color="rgb(248, 187, 6)"/> */}
+                    <li><TbBrandOauth size="17px" color="rgb(111,50,22)"/>
                     Authentication</li>
                     <li><TbLayoutAlignMiddle size="17px" color="rgb(85, 10, 246)"/>
                     Middleware</li>
                     <li><SiSocketdotio size="17px" color="rgb(201, 255, 6)"/>
                     WebSocket</li>
-                    <li>Validation</li>
+                    <li><GrValidate size="17px" color="rgb(30,60,90)"/>
+                    Validation</li>
                     <li><BiSolidErrorCircle size="17px" color="rgb(14, 117, 242)"/>
                     Error Handling</li>
                     <li><MdOutlineUploadFile size="17px" color="rgb(214, 17, 17)" />
@@ -155,10 +162,14 @@ function Resume() {
                 <h2 className="skill-head">Database</h2>
                 <div className="skill">
                   <ul>
-                    <li>MongoDB</li>
-                    <li>Mongoose</li>
-                    <li>Aggregation</li>
-                    <li>Data Modeling</li>
+                    <li><SiMongodb size="17px" color="rgb(57, 161, 5)"/>
+                    MongoDB</li>
+                    <li><SiMongoose size="17px" color="rgb(80,104,220)"/>
+                    Mongoose</li>
+                    <li><GrAggregate size="17px" color="rgb(80,100,20)"/>
+                    Aggregation</li>
+                    <li><BsDatabaseGear size="17px" color="rgb(180,104,220)"/>
+                    Data Modeling</li>
                   </ul>
                 </div>
               </div>
