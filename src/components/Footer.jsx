@@ -6,7 +6,7 @@ export default function Footer() {
   const Theme = useContext(ThemeContext);
   return (
       <div className={`footer ${Theme && "dark-footer"}`}>
-        <p>© 2024 All Rights Reserved by elite-themes24.</p>
+        <p>© 2024 All Rights Reserved by Mohd Izaz</p>
       </div>
   )
 }

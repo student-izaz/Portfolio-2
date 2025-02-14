@@ -27,8 +27,9 @@ function Work() {
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
-                <div className="tech">React</div>
-                <div className="tech">React</div>
+                <div className="tech">Mongo DB</div>
+                <div className="tech">Express js</div>
+                <div className="tech">REST API</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>
@@ -46,8 +47,8 @@ function Work() {
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
-                <div className="tech">React</div>
-                <div className="tech">React</div>
+                <div className="tech">Node js</div>
+                <div className="tech">Express js</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>
@@ -64,9 +65,8 @@ function Work() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
               </div>
               <div className="work-tech">
-                <div className="tech">React</div>
-                <div className="tech">React</div>
-                <div className="tech">React</div>
+                <div className="tech">Javascript</div>
+                <div className="tech">CSS</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>
