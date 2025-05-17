@@ -27,8 +27,8 @@ function TopMenu({ darkMode, setDarkMode }) {
   return (
     <>
       <div className={`top-menu ${Theme && 'topDark'}`}>
-        <div className="menuContent">
-          <h2>Portfolio</h2>
+        <div className="menu-content">
+          <h1>Portfolio</h1>
         </div>
         <div className="icons">
           <div className="toggle-mode" onClick={toggleModes}>

@@ -27,9 +27,9 @@ function Work() {
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
-                <div className="tech">Mongo DB</div>
-                <div className="tech">Express js</div>
-                <div className="tech">REST API</div>
+                <div className="tech">MongoDB</div>
+                <div className="tech">Express</div>
+                <div className="tech">Redux</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>

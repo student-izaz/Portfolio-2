@@ -16,15 +16,10 @@ function About() {
         </div>
         <div className="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs.
-            <br />
-            <br />
-            temporibus culpa dolorem molestias atque ipsam veritatis dolore at,
-            provident perspiciatis velit nemo voluptatum dignissimos. Optio, aut
-            quasi architecto consequuntur, praesentium asperiores, perspiciatis
-            totam distinctio id eos quae tempore dignissimos inventore aliquam
+I'm a passionate fresher with solid knowledge of the MERN stack (MongoDB, Express.js, React.js, Node.js) and a strong interest in full-stack web development.
+Currently, I'm expanding my skillset by pursuing a Data Analyst course, learning tools like Excel, SQL, and Python.
+I enjoy building user-friendly web applications and analyzing data to uncover insights.
+Eager to apply my skills in real-world projects and grow as a tech professional.            <br />
           </p>
         </div>
       </div>
@@ -40,12 +35,11 @@ function About() {
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Web Development</h3>
+                <h3>Fontend (React)</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                  adipisci voluptates dolor numquam consequatur nam, unde
+                  I build dynamic and responsive user interfaces using React.js, focusing on component-based architecture, state management, and clean UI/UX.
                 </p>
               </div>
             </div>
@@ -57,12 +51,11 @@ function About() {
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Web Development</h3>
+                <h3>Backend (Node+Express)</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                  adipisci voluptates dolor numquam consequatur nam, unde
+                I create scalable and secure server-side applications using Node.js and Express, handling RESTful APIs, routing, and integration with MongoDB.
                 </p>
               </div>
             </div>
@@ -74,12 +67,11 @@ function About() {
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Web Development</h3>
+                <h3>Full-Stack Web Development (MERN)</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                  adipisci voluptates dolor numquam consequatur nam, unde
+                 I develop complete MERN stack applications, combining MongoDB, Express, React, and Node.js to deliver end-to-end solutions from frontend to backend.
                 </p>
               </div>
             </div>
@@ -91,12 +83,11 @@ function About() {
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Web Development</h3>
+                <h3>Data Analysis (Learning)</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                  adipisci voluptates dolor numquam consequatur nam, unde
+                  Currently learning data analysis tools and techniques like Python, Excel, SQL, and data visualization to extract insights and make data-driven decisions.
                 </p>
               </div>
             </div>

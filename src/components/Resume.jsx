@@ -141,14 +141,14 @@ function Resume() {
                     Express.js</li>
                     <li><TbApi size="17px" color="rgb(11,111,111)"/>
                     REST APIs</li>
-                    <li><GrGraphQl size="17px" color="rgb(231, 15, 220)"/>
-                    GraphQL</li>
+                    {/* <li><GrGraphQl size="17px" color="rgb(231, 15, 220)"/>
+                    GraphQL</li> */}
                     <li><TbBrandOauth size="17px" color="rgb(111,50,22)"/>
                     Authentication</li>
                     <li><TbLayoutAlignMiddle size="17px" color="rgb(85, 10, 246)"/>
                     Middleware</li>
-                    <li><SiSocketdotio size="17px" color="rgb(201, 255, 6)"/>
-                    WebSocket</li>
+                    {/* <li><SiSocketdotio size="17px" color="rgb(201, 255, 6)"/>
+                    WebSocket</li> */}
                     <li><GrValidate size="17px" color="rgb(30,60,90)"/>
                     Validation</li>
                     <li><BiSolidErrorCircle size="17px" color="rgb(14, 117, 242)"/>
