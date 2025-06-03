@@ -84,8 +84,7 @@ function Work() {
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
-                <div className="tech">React</div>
-                <div className="tech">React</div>
+                <div className="tech">Redux</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>
