@@ -23,7 +23,7 @@ function Work() {
               <div className="about-work">
               <div className="work-title"><h3>MERN Grocery App</h3></div>
               <div className="work-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
+                <p>E-commerce website with features like product listing, category filtering, user authentication, shopping cart.</p>
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
