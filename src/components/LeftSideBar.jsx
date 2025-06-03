@@ -22,7 +22,7 @@ function LeftSideBar({ darkMode }) {
           <div className="my_name">
             <h2>MOHAMMAD IZAZ</h2>
           </div>
-          <div className="title">FULL STACK DEVELOPER</div>
+          <div className="title">MERN FULL STACK / DATA ANALYST</div>
           <div className="social-icon">
             <div className="icon icon-1">
               <a href="https://github.com/student-izaz?tab=repositories"><FaGithub /></a>
