@@ -83,8 +83,8 @@ function Work() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
               </div>
               <div className="work-tech">
-                <div className="tech">React</div>
-                <div className="tech">Redux</div>
+                <div className="tech">JAVASCRIPT</div>
+                <div className="tech">API</div>
               </div>
               <div className="work-link">
                 <a href="#"><FaGithub /> View on Github</a>
