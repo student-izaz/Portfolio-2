@@ -23,7 +23,7 @@ function Work() {
               <div className="about-work">
               <div className="work-title"><h3>MERN Grocery App</h3></div>
               <div className="work-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
+                <p>E-commerce website with features like product listing, category filtering, user authentication, shopping cart.</p>
               </div>
               <div className="work-tech">
                 <div className="tech">React</div>
@@ -55,42 +55,6 @@ function Work() {
               </div>
               </div>
             </div>
-            <div className="work-sample flex-col rg-2">
-            <div className="work-img">
-                <img src={assets.facebook_img} alt="Work_Img"/>
-              </div>
-              <div className="about-work">
-              <div className="work-title"><h3>E-commerce Platform</h3></div>
-              <div className="work-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
-              </div>
-              <div className="work-tech">
-                <div className="tech">Javascript</div>
-                <div className="tech">CSS</div>
-              </div>
-              <div className="work-link">
-                <a href="#"><FaGithub /> View on Github</a>
-              </div>
-              </div>
-            </div>
-            <div className="work-sample flex-col rg-2">
-            <div className="work-img">
-                <img src={assets.youtube_img} alt="Work_Img" />
-              </div>
-              <div className="about-work">
-              <div className="work-title"><h3>MERN Grocery App</h3></div>
-              <div className="work-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
-              </div>
-              <div className="work-tech">
-                <div className="tech">React</div>
-                <div className="tech">React</div>
-                <div className="tech">React</div>
-              </div>
-              <div className="work-link">
-                <a href="#"><FaGithub /> View on Github</a>
-              </div>
-              </div>
             </div>
           </div>
         </div>
