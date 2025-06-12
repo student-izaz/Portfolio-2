@@ -7,6 +7,7 @@ import About from './components/About.jsx';
 import Resume from './components/Resume.jsx';
 import Work from './components/Work.jsx';
 import Contact from './components/Contact.jsx';
+import Certificate from './pages/Certificate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       {path: '/resume', element: <Resume/>},
       {path: '/work', element: <Work/>},
       {path: '/contact', element: <Contact/>},
+      {path: '/certificate', element: <Certificate/>},
     ]
   }
 ])

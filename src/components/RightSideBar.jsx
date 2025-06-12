@@ -37,6 +37,12 @@ function RightSideBar({selectedTab, setSelectedTab}) {
               <p>Contact</p>
             </Link>
           </div>
+          <div onClick={()=>{setSelectedTab('Certificate')}} className={`option fl-col ${selectedTab === 'Certificate' && 'active'}`}>
+            <Link to="/certificate">
+              <RiContactsBookLine className="icon" />
+              <p>Certificate</p>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

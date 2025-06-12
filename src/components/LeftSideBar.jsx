@@ -34,7 +34,7 @@ function LeftSideBar({ darkMode }) {
               <a href=""><FaWhatsapp /></a>
             </div>
             <div className="icon icon-4">
-              <a href="https://www.linkedin.com/in/izaz-ahmed-7b1aa426b/"><FaLinkedinIn /></a>
+              <a href="https://www.linkedin.com/in/izaz-ahmed"><FaLinkedinIn /></a>
             </div>
           </div>
         </div>
