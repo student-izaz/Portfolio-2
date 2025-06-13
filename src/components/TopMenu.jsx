@@ -69,6 +69,11 @@ function TopMenu({ darkMode, setDarkMode }) {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link to="/certificate" className="green">
+                Certificate
+              </Link>
+            </li>
           </ul>
         </div>
       )}
