@@ -24,3 +24,19 @@
 .dark-certificate-section .heading{
     color: white;
 }
+@media (max-width: 400px){
+    .certificate-section{
+        width: 100%;
+    }
+    .cert-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px){
+    .certificate-section{
+        width: 100%;
+    }
+}
+
+
