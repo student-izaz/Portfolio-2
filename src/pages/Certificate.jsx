@@ -15,6 +15,9 @@ const Certificate = () => {
             <div className="cert-box">
                 <img src={assets.Deloitte_certificate} alt="certificate_img" />
             </div>
+            <div className="cert-box">
+                <img src={assets.sql_certificate} alt="certificate_img" />
+            </div>
         </div>
     </div>
   )
