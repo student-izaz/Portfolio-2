@@ -30,6 +30,8 @@
   border-radius: 15px;
   position: absolute;
   top: -160px;
+  border: 2px solid rgb(241, 225, 240);
+
 }
 .my_name {
   margin: 100px 10px 10px 10px;
