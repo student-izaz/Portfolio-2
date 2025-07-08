@@ -1,10 +1,9 @@
 import React, { useState, useContext } from "react";
 import "./TopMenu.css";
 import { IoMenuOutline } from "react-icons/io5";
-import { MdOutlineDarkMode } from "react-icons/md";
-import { MdLightMode } from "react-icons/md";
+import { MdOutlineDarkMode, MdLightMode } from "react-icons/md";
 import { Link } from "react-router-dom";
-import {ThemeContext} from '../App';
+import { ThemeContext } from "../App";
 
 function TopMenu({ darkMode, setDarkMode }) {
   const Theme = useContext(ThemeContext);
@@ -12,71 +11,76 @@ function TopMenu({ darkMode, setDarkMode }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModes = () => {
-    setToggleMode(!toggleMode);
-    setDarkMode(!darkMode);
+    setToggleMode((prev) => !prev);
+    setDarkMode((prev) => !prev);
   };
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev);
   };
 
   const closeMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(false); // ✅ Fixed: was toggling instead of setting false
   };
 
   return (
     <>
-      <div className={`top-menu ${Theme && 'topDark'}`}>
+      <div className={`top-menu ${Theme ? "topDark" : ""}`}>
         <div className="menu-content">
           <h1>Portfolio</h1>
         </div>
         <div className="icons">
-          <div className="toggle-mode" onClick={toggleModes}>
-            {toggleMode ? (
-              <MdLightMode className="icon"/>
-            ) : (
-              <MdOutlineDarkMode className="icon"/>
-            )}
+          <div
+            className="toggle-mode"
+            onClick={toggleModes}
+            role="button"
+            aria-label="Toggle Theme"
+          >
+            {toggleMode ? <MdLightMode className="icon" /> : <MdOutlineDarkMode className="icon" />}
           </div>
-          <div className="menu-icon" onClick={toggleMenu}>
+          <div
+            className="menu-icon"
+            onClick={toggleMenu}
+            role="button"
+            aria-label="Open Menu"
+          >
             <IoMenuOutline className="icon" />
           </div>
         </div>
       </div>
-      {isOpen && (
-        <div className="links">
-          <div className="close-menu" onClick={closeMenu}>
-            <p>X</p>
-          </div>
-          <ul>
-            <li>
-              <Link to="/about" className="blue">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/resume" className="red">
-                Resume
-              </Link>
-            </li>
-            <li>
-              <Link to="/work" className="green">
-                Work
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="pink">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link to="/certificate" className="green">
-                Certificate
-              </Link>
-            </li>
-          </ul>
+
+      <div className={`links ${isOpen ? "active" : ""}`}>
+        <div className="close-menu" onClick={closeMenu}>
+          <p>X</p>
         </div>
-      )}
+        <ul>
+          <li>
+            <Link to="/about" className="blue" onClick={closeMenu}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/resume" className="red" onClick={closeMenu}>
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="/work" className="green" onClick={closeMenu}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="pink" onClick={closeMenu}>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/certificate" className="green" onClick={closeMenu}>
+              Certificate
+            </Link>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }

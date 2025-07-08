@@ -9,7 +9,7 @@ function Work() {
   const Theme = useContext(ThemeContext);
 
   return (
-    <div className={`work-section ${Theme && "dark-work-section"}`}>
+    <div className={`work-section ${Theme && "dark-work-section"}`} id="work">
       <div className="work-me">
         <div className="heading">
           <h1>Work</h1>
