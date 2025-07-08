@@ -35,8 +35,6 @@
 }
 .work-img{
     height: 230px;
-    /* border-radius: 20px; */
-    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); */
 }
 img{
     width: 100%;
@@ -48,7 +46,10 @@ img{
 
 }
 .work-link{
-    margin-top: 4px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .work-link a{
     font-size: 16px;
