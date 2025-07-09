@@ -40,12 +40,12 @@ function Work() {
 
             <div className="work-sample flex-col rg-2">
               <div className="work-img">
-                <img src={assets.techpile_img} alt="Work_Img" />
+                <img src={assets.skillswapp} alt="Work_Img" />
               </div>
               <div className="about-work">
-                <div className="work-title"><h3>Techpile Project</h3></div>
+                <div className="work-title"><h3>SkillSwapp MERN</h3></div>
                 <div className="work-desc">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, accusamus.</p>
+                  <p>SkillSwap is a responsive web application that connects users who want to exchange skills rather than buy or sell them.</p>
                 </div>
                 <div className="work-tech">
                   <div className="tech">React</div>
@@ -57,7 +57,6 @@ function Work() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <Footer />
