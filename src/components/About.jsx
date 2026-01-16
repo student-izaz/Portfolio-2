@@ -83,12 +83,12 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Data Analysis (Learning)</h3>
+                <h3>Data Analyst</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Currently learning data analysis tools and techniques like Python, Excel, SQL, and data visualization to extract insights and make data-driven decisions.
-                </p>
+Data Analyst skilled in SQL, Python, Excel, and Power BI, focused on transforming raw data into actionable business insights.
+Passionate about data-driven decision-making and building clear, impactful dashboards.                </p>
               </div>
             </div>
           </div>
