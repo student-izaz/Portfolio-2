@@ -11,7 +11,7 @@
     width:48%;
     row-gap: 30px;
 }
-.about-education{
+.about-education, .about-experience{
     row-gap: 25px;
 }
 .icon-exp{
@@ -62,9 +62,13 @@
     background-color: #fef0f7;
 }
 
-.exp-col-1{
+.exp-col-1, .exp-col-3{
     background-color: rgb(232, 242, 252);
 }
+.exp-col-2{
+    background-color: #fef0f7;
+}
+
 .collage-name, .org-name{
     font-size: 15.5px;
     color: rgb(119, 119, 135);

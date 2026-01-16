@@ -23,6 +23,8 @@ function LeftSideBar({ darkMode }) {
             <h2>MOHAMMAD IZAZ</h2>
           </div>
           <div className="title">MERN FULL STACK / DATA ANALYST</div>
+          <div className="title"><p>HackerRank 3 ⭐ ReactJS</p></div>
+          <div className="title"><p>HackerRank 3 ⭐ SQL</p></div>
           <div className="social-icon">
             <div className="icon icon-1">
               <a href="https://github.com/student-izaz?tab=repositories"><FaGithub /></a>
@@ -77,9 +79,11 @@ function LeftSideBar({ darkMode }) {
           </div>
         </div>
         <div className="download-cv-btn">
-          <button className="primary-btn btn">
-            <FaDownload /> Download CV
-          </button>
+          <a href="/Mohd-Izaz-Resume.pdf">
+            <button className="primary-btn btn">
+              <FaDownload /> Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>

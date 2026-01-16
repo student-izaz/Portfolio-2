@@ -1,39 +1,37 @@
-import React from "react";
-import "./Work.css";
+import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 
-function Work({ mern_work }) {
-
+function DAProjectComponent({ da_project }) {
   return (
     <div className="work-sample flex-col rg-2">
       <div className="work-img">
-        <img src={mern_work.project_img} alt="Work_Img" />
+        <img src={da_project.project_img} alt="Work_Img" />
       </div>
       <div className="about-work">
         <div className="work-title">
-          <h3>{mern_work.project_name}</h3>
+          <h3>{da_project.project_name}</h3>
         </div>
         <div className="work-desc">
           <p>
-            {mern_work.project_description}
+            {da_project.project_description}
           </p>
         </div>
         <div className="work-tech">
-          <div className="tech">React</div>
-          <div className="tech">Node js</div>
-          <div className="tech">Express js</div>
+          {da_project.tags.map((tag, index) => (
+            <div className="tech" key={index}>{tag}</div>
+          ))}
         </div>
         <div className="work-link">
-          <a href={mern_work.github_link}>
+          <a href={da_project.github_link}>
             <FaGithub /> <p>View on Github</p>
           </a>
-          <a href={mern_work.live_link}><IoIosLink />
+          <a href={da_project.live_link}><IoIosLink />
           <p>Live Preview</p></a>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Work;
+export default DAProjectComponent;

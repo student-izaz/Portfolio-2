@@ -42,6 +42,9 @@
   border-radius: 5px;
   font-size: 13px;
 }
+.title p{
+  color: #282727;
+}
 .social-icon {
   display: flex;
   column-gap: 10px;
@@ -127,6 +130,9 @@
 }
 .darkLeftSideBar .title{
   background-color: rgb(47, 46, 46);
+  color: rgb(187, 187, 187);
+}
+.darkLeftSideBar .title p{
   color: rgb(187, 187, 187);
 }
 .darkLeftSideBar .contact-details{

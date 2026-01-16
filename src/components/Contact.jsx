@@ -2,6 +2,8 @@ import React, { useState, useContext } from "react";
 import "./Contact.css";
 import Footer from "./Footer";
 import { ThemeContext } from "../App";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
 
 function Contact() {
   const Theme = useContext(ThemeContext);
@@ -9,22 +11,39 @@ function Contact() {
     name: "",
     email: "",
     messg: "",
-  })
+  });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     e.preventDefault();
 
     setContactData({
       ...contactData,
-      [e.target.name]: e.target.value
-    })
-  }
+      [e.target.name]: e.target.value,
+    });
+  };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(contactData)
-  }
-  
+    setLoading(true);
+
+    try {
+      const res = await axios.post(
+        "http://localhost:5000/send-email",
+        contactData
+      );
+      if (res.data.success) {
+        setContactData({ name: "", email: "", messg: "" });
+
+        toast.success("Email sent successfully!");
+      }
+    } catch (error) {
+      toast.error("Failed to send email. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className={`contact-section ${Theme && "dark-theme-contact"}`}>
       <div className="contact-me flex-col">
@@ -36,20 +55,44 @@ function Contact() {
             <form onSubmit={handleSubmit} className="flex-col">
               <div className="inputfield flex-col">
                 <label>Name *</label>
-                <input type="text" name="name" onChange={handleChange}/>
+                <input
+                  type="text"
+                  name="name"
+                  value={contactData.name}
+                  onChange={handleChange}
+                />
               </div>
               <div className="inputfield flex-col">
                 <label>Email *</label>
-                <input type="email" name="email" onChange={handleChange}/>
+                <input
+                  type="email"
+                  name="email"
+                  value={contactData.email}
+                  onChange={handleChange}
+                />
               </div>
               <div className="inputfield flex-col">
                 <label>Message *</label>
-                <textarea rows={2} cols={20} name="messg" onChange={handleChange}/>
+                <textarea
+                  rows={2}
+                  cols={20}
+                  name="messg"
+                  value={contactData.messg}
+                  onChange={handleChange}
+                />
               </div>
               <div className="submit-btn">
-                <button type="submit">Submit</button>
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+                >
+                  {loading ? "Sending..." : "Send"}
+                </button>
               </div>
             </form>
+
+            <ToastContainer position="top-right" autoClose={3000} />
           </div>
         </div>
         <Footer />

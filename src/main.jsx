@@ -5,9 +5,9 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './components/About.jsx';
 import Resume from './components/Resume.jsx';
-import Work from './components/Work.jsx';
 import Contact from './components/Contact.jsx';
 import Certificate from './pages/Certificate.jsx';
+import WorkPage from './pages/WorkPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       {path: '/', element: <About/>},
       {path: '/about', element: <About/>},
       {path: '/resume', element: <Resume/>},
-      {path: '/work', element: <Work/>},
+      {path: '/work', element: <WorkPage/>},
       {path: '/contact', element: <Contact/>},
       {path: '/certificate', element: <Certificate/>},
     ]

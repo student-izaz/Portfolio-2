@@ -90,6 +90,30 @@ function Resume() {
             <div className="about-experience flex-col">
               <div className="exp-card flex-col exp-col-1">
                 <div className="duration">
+                  <p>2025-Aug - Present</p>
+                </div>
+                <div className="field-name">
+                  <p>MIS Executive</p>
+                  <span style={{ fontSize: "13px" }}></span>
+                </div>
+                <div className="org-name">
+                  <p>IISERVZ</p>
+                </div>
+              </div>
+              <div className="exp-card flex-col exp-col-2">
+                <div className="duration">
+                  <p>2 Month</p>
+                </div>
+                <div className="field-name">
+                  <p>Frontend Development</p>
+                  <span style={{ fontSize: "13px" }}>Paid</span>
+                </div>
+                <div className="org-name">
+                  <p>Freelancing</p>
+                </div>
+              </div>
+              <div className="exp-card flex-col exp-col-3">
+                <div className="duration">
                   <p>1 Month (Internship)</p>
                 </div>
                 <div className="field-name">
@@ -100,6 +124,7 @@ function Resume() {
                   <p>UNIFIED MENTOR</p>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
