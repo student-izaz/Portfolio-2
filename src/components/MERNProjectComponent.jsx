@@ -3,7 +3,7 @@ import "./Work.css";
 import { FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 
-function Work({ mern_work }) {
+function MERNProject({ mern_work }) {
 
   return (
     <div className="work-sample flex-col rg-2">
@@ -36,4 +36,4 @@ function Work({ mern_work }) {
   );
 }
 
-export default Work;
+export default MERNProject;

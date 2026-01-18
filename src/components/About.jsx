@@ -87,8 +87,9 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
               </div>
               <div className="col-text">
                 <p>
-Data Analyst skilled in SQL, Python, Excel, and Power BI, focused on transforming raw data into actionable business insights.
-Passionate about data-driven decision-making and building clear, impactful dashboards.                </p>
+                  Data Analyst skilled in SQL, Python, Excel, and Power BI, focused on transforming raw data into actionable business insights.
+                  Passionate about data-driven decision-making and building clear, impactful dashboards.                
+                </p>
               </div>
             </div>
           </div>

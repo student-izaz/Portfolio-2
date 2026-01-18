@@ -34,29 +34,29 @@ export const MERN_WORK = [
 export const DA_WORK = [
     {
         id: 1, 
-        project_img: assets.da_project1,
-        project_name: "DA Project 1",
-        project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",      
-        tags: ['python','pandas','numpy'],
+        project_img: assets.customer_behavior_dashboard,
+        project_name: "Customer Behavior Analysis",
+        project_description: "This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. ",      
+        tags: ['python','MYSQL','Power BI', 'AI Presentation'],
         live_link: "#",
-        github_link: "#",
+        github_link: "https://github.com/student-izaz/DA-Project/tree/main/customer_shopping_analysis",
     },
-    {      
-        id: 2,
-        project_img: assets.da_project2,
-        project_name: "DA Project 2",
-        project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        tags: ['python','pandas','numpy'],
-        live_link: "#",
-        github_link: "#",
-    },
-    {
-        id: 3,
-        project_img: assets.da_project3,
-        project_name: "DA Project 3",
-        project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        tags: ['python','pandas','numpy'],
-        live_link: "#",
-        github_link: "#",
-    }
+    // {      
+    //     id: 2,
+    //     project_img: assets.da_project2,
+    //     project_name: "DA Project 2",
+    //     project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //     tags: ['python','pandas','numpy'],
+    //     live_link: "#",
+    //     github_link: "#",
+    // },
+    // {
+    //     id: 3,
+    //     project_img: assets.da_project3,
+    //     project_name: "DA Project 3",
+    //     project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //     tags: ['python','pandas','numpy'],
+    //     live_link: "#",
+    //     github_link: "#",
+    // }
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import './WorkPage.css'; 
 import Footer from '../components/Footer';
-import Work from '../components/Work';
+import MERNProject from '../components/MERNProjectComponent';
 import DAProjectComponent from '../components/DAProjectComponent';
 import { MERN_WORK, DA_WORK } from '../Data/work/work';
 import { ThemeContext } from "../App";
@@ -28,7 +28,7 @@ function WorkPage() {
             <div className="work-container">
               <div className="work-area flex rg-4 flex-wrap">
                 {MERN_WORK.map((work) => (
-                  <Work key={work.id} mern_work={work} />
+                  <MERNProject key={work.id} mern_work={work} />
                 ))}
               </div>
             </div>
