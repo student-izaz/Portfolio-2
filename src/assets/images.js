@@ -1,4 +1,4 @@
-import my_img from "./my_img.jpg"
+import my_img from "./my_img.png"
 import begumsaab from "./begumsaab.png"
 import skillswapp from "./skillswapp.png";
 import Deloitte_certificate from "./Deloitte_Certificate.png";
