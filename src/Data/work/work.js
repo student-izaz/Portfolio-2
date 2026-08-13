@@ -1,24 +1,24 @@
 import { assets } from "../../assets/images";
 
 export const MERN_WORK = [
-    {
-        id: 1,
-        project_img: assets.skillswapp,
-        project_name: "SkillSwap",
-        project_description: "SkillSwap is a responsive web application that connects users who want to exchange skills rather than buy or sell them.",
-        tags: ['react','node js','express'],
-        live_link: "https://skillswapp-fawn.vercel.app/home",
-        github_link: "https://github.com/student-izaz/skillswapp.git"
-    },
-    {
-        id: 2,
-        project_img: assets.finance_tracker,
-        project_name: "Finance Tracker",
-        project_description: "The Finance Tracker is a full-stack web application built using the MERN stack...",
-        tags: ['react','node js','express'],
-        live_link: "https://finance-tracker-eight-drab.vercel.app//",
-        github_link: "https://github.com/student-izaz/Project-Finance-Tracker.git",
-    },
+    // {
+    //     id: 1,
+    //     project_img: assets.skillswapp,
+    //     project_name: "SkillSwap",
+    //     project_description: "SkillSwap is a responsive web application that connects users who want to exchange skills rather than buy or sell them.",
+    //     tags: ['react','node js','express'],
+    //     live_link: "https://skillswapp-fawn.vercel.app/home",
+    //     github_link: "https://github.com/student-izaz/skillswapp.git"
+    // },
+    // {
+    //     id: 2,
+    //     project_img: assets.finance_tracker,
+    //     project_name: "Finance Tracker",
+    //     project_description: "The Finance Tracker is a full-stack web application built using the MERN stack...",
+    //     tags: ['react','node js','express'],
+    //     live_link: "https://finance-tracker-eight-drab.vercel.app//",
+    //     github_link: "https://github.com/student-izaz/Project-Finance-Tracker.git",
+    // },
     {
         id: 3,
         project_img: assets.begumsaab,
@@ -41,15 +41,15 @@ export const DA_WORK = [
         live_link: "#",
         github_link: "https://github.com/student-izaz/DA-Project/tree/main/customer_shopping_analysis",
     },
-    // {      
-    //     id: 2,
-    //     project_img: assets.da_project2,
-    //     project_name: "DA Project 2",
-    //     project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //     tags: ['python','pandas','numpy'],
-    //     live_link: "#",
-    //     github_link: "#",
-    // },
+    {      
+        id: 2,
+        project_img: assets.Adventure_Work_PBI,
+        project_name: "Adventure Bike Shop Retail Dashboard",
+        project_description: "An interactive Power BI Dashboard built using the AdventureWorks Retail Dataset to analyze sales performance, customer behavior, product insights, and business KPIs. This dashboard helps stakeholders monitor revenue, profit, orders, returns, customer trends, and product performance through dynamic visualizations and interactive filters.",
+        tags: ['Excel','Power BI','Data Modeling'],
+        live_link: "#",
+        github_link: "https://github.com/student-izaz/Power-BI-Dashboard.git",
+    },
     // {
     //     id: 3,
     //     project_img: assets.da_project3,

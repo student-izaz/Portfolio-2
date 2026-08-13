@@ -16,10 +16,17 @@ function About() {
         </div>
         <div className="about-text">
           <p>
-I'm a passionate fresher with solid knowledge of the MERN stack (MongoDB, Express.js, React.js, Node.js) and a strong interest in full-stack web development.
-Currently, I'm expanding my skillset by pursuing a Data Analyst course, learning tools like Excel, SQL, and Python.
-I enjoy building user-friendly web applications and analyzing data to uncover insights.
-Eager to apply my skills in real-world projects and grow as a tech professional.            <br />
+About Me
+
+I’m a Data Analyst / MIS Professional with hands-on experience in Excel, SQL, Power BI, and data reporting. I enjoy working with data, cleaning and organizing information, creating meaningful reports, and turning raw data into actionable insights.
+
+I have experience in operational reporting, data verification, Excel-based tracking, and dashboard development. 
+
+<br></br>
+I’m continuously improving my skills in SQL, Power BI, DAX, Excel, and data analysis while building real-world projects to strengthen my analytical and problem-solving abilities.
+
+My goal is to grow as a **Data Analyst / Business Intelligence professional** and help organizations make better decisions through accurate and insightful data.
+          <br />
           </p>
         </div>
       </div>
@@ -35,12 +42,11 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Fontend (React)</h3>
+                <h3>MIS REPORTING</h3>
               </div>
               <div className="col-text">
                 <p>
-                  I build dynamic and responsive user interfaces using React.js, focusing on component-based architecture, state management, and clean UI/UX.
-                </p>
+I create and maintain MIS reports using Microsoft Excel, ensuring accurate data tracking, reporting, and timely delivery of business information.                </p>
               </div>
             </div>
           </div>
@@ -51,12 +57,11 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Backend (Node+Express)</h3>
+                <h3>Data Analysis</h3>
               </div>
               <div className="col-text">
                 <p>
-                I create scalable and secure server-side applications using Node.js and Express, handling RESTful APIs, routing, and integration with MongoDB.
-                </p>
+I analyze and organize data using Excel, SQL, and Power BI to identify trends, monitor performance, and generate actionable insights.2                </p>
               </div>
             </div>
           </div>
@@ -67,12 +72,11 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Full-Stack Web Development (MERN)</h3>
+                <h3>Data Management</h3>
               </div>
               <div className="col-text">
                 <p>
-                 I develop complete MERN stack applications, combining MongoDB, Express, React, and Node.js to deliver end-to-end solutions from frontend to backend.
-                </p>
+I handle data cleaning, validation, reconciliation, and tracking, ensuring reports and datasets are accurate, consistent, and reliable.                </p>
               </div>
             </div>
           </div>
@@ -83,12 +87,11 @@ Eager to apply my skills in real-world projects and grow as a tech professional.
             </div>
             <div className="jasd flx-col">
               <div className="col-heading">
-                <h3>Data Analyst</h3>
+                <h3>Dashboard & Visualization</h3>
               </div>
               <div className="col-text">
                 <p>
-                  Data Analyst skilled in SQL, Python, Excel, and Power BI, focused on transforming raw data into actionable business insights.
-                  Passionate about data-driven decision-making and building clear, impactful dashboards.                
+                  I build interactive Power BI dashboards and Excel reports to track KPIs, visualize business performance, and support data-driven decision-making.                
                 </p>
               </div>
             </div>

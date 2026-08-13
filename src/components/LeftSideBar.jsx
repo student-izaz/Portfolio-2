@@ -22,8 +22,8 @@ function LeftSideBar({ darkMode }) {
           <div className="my_name">
             <h2>MOHAMMAD IZAZ</h2>
           </div>
-          <div className="title">MERN FULL STACK / DATA ANALYST</div>
-          <div className="title"><p>HackerRank 3 ⭐ ReactJS</p></div>
+          <div className="title">MIS ANALYST / DATA ANALYST</div>
+          {/* <div className="title"><p>HackerRank 3 ⭐ ReactJS</p></div> */}
           <div className="title"><p>HackerRank 3 ⭐ SQL</p></div>
           <div className="social-icon">
             <div className="icon icon-1">
