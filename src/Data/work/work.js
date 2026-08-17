@@ -50,13 +50,13 @@ export const DA_WORK = [
         live_link: "#",
         github_link: "https://github.com/student-izaz/Power-BI-Dashboard.git",
     },
-    // {
-    //     id: 3,
-    //     project_img: assets.da_project3,
-    //     project_name: "DA Project 3",
-    //     project_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //     tags: ['python','pandas','numpy'],
-    //     live_link: "#",
-    //     github_link: "#",
-    // }
+    {
+        id: 3,
+        project_img: assets.excel_practice_banner,
+        project_name: "Excel Skills Practice",
+        project_description: `A practical Excel project designed to strengthen and showcase essential data analysis and reporting skills. This practice sheet includes LOOKUP functions, INDEX/MATCH, Pivot Tables, Conditional Formatting, data cleaning, and basic analysis.`,
+        tags: ['Advanced Excel'],
+        live_link: "#",
+        github_link: "#",
+    }
 ];
